@@ -14,7 +14,7 @@ cargo_metadata = { version = "0.14.0" }
 ron = { version = "0.6.4" }
 
 [dependencies]
-engine-macros = { path = "../../../../engine-macros" }
-engine-use = { path = "../../../../engine-use" }
+engine-macros = { path = "../../engine-macros" }
+engine-use = { path = "../../engine-use" }
 ron = { version = "0.6.4" }
 serde = { version = "1.0.77", features = ["derive"] }
